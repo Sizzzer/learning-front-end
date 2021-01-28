@@ -1,0 +1,53 @@
+body{
+    background: #d2d2c1 url("imagens/fundo.png");
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#conteudo{
+    width: 900px;
+}
+
+.menu{
+    background-color: rgb(150, 150, 145);
+    padding: 10px;
+    
+    /* border: 5px solid black; */
+}
+
+.menu-bt {
+    color: rgb(17, 17, 54);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 7px;
+    
+}
+
+.menu-bt:hover {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1m;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 7px;
+}
+
+.texto{
+    background-color: white;
+    padding: 20px;
+}
+
+.titulo{
+    color: rgb(150, 150, 145);
+    font-size: 1.2em;
+}
+
+.rodape{
+    text-align: center;
+    font-size: 0.65em;
+}
+
+.foto{
+    border: 0.8em groove #c3c3ae;
+}
