@@ -9,7 +9,7 @@ body{
     background-color: #ecf0f1;
 }
 
-/* ############################################## */
+/* ################ MENU ################ */
 
 #cabeçalho{
     text-align: center;
@@ -44,7 +44,7 @@ body{
     background-color: #fff;
 }
 
-/* ###################################################################### */
+/* ################ CONTEUDO PRINCIPAL (MAIN CONTENT) ################ */
 
 #conteudo{
     width: 80%;
@@ -67,7 +67,20 @@ img{
     padding: 6% 0px;
 }
 
-/* ################################# */
+.titulo-rep{
+    color: #f1c40f;
+}
+
+.subtitulo-rep{
+    color: #7f8c8d;
+}
+
+.links{
+    color: #f1c40f;
+    text-decoration: none;
+}
+
+/* ################ BARRA LATERAL (SIDE BAR) ################ */
 
 #lateral{
     
@@ -77,14 +90,20 @@ img{
     padding-top: 2.5%;
 }
 
-.sub-lateral{
+.box-lateral{
     padding-bottom: 15%;
 }
 
 .titulo-lateral{
-    padding-bottom: 10px;
+    padding: 10px 0px 10px 10px; 
 }
 
 #espaço-hr{
     padding: 10px 0px;
 }
+
+.titulo-lateral{
+    color: #2d3436;
+    background-color: #b2bec3;
+}
+
