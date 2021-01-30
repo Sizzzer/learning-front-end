@@ -9,6 +9,8 @@ body{
     background-color: #ecf0f1;
 }
 
+/* ############################################## */
+
 #cabeçalho{
     text-align: center;
     background-color: #f1c40f;
@@ -40,4 +42,49 @@ body{
 .menu-bt:hover{
     color: #f1c40f;
     background-color: #fff;
+}
+
+/* ###################################################################### */
+
+#conteudo{
+    width: 80%;
+    position: absolute;
+    left: 10%;
+}
+
+#principal{
+    
+    width: 70%;
+    position: absolute;
+    left: 0px;
+}
+
+img{
+    width: 100%;
+}
+
+.reportagem{
+    padding: 6% 0px;
+}
+
+/* ################################# */
+
+#lateral{
+    
+    width: 20%;
+    position: absolute;
+    right: 0px;
+    padding-top: 2.5%;
+}
+
+.sub-lateral{
+    padding-bottom: 15%;
+}
+
+.titulo-lateral{
+    padding-bottom: 10px;
+}
+
+#espaço-hr{
+    padding: 10px 0px;
 }
