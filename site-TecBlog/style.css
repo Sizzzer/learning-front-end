@@ -44,19 +44,18 @@ body{
     background-color: #fff;
 }
 
-/* ################ CONTEUDO PRINCIPAL (MAIN CONTENT) ################ */
-
 #conteudo{
     width: 80%;
     position: absolute;
     left: 10%;
 }
 
+/* ################ CONTEUDO PRINCIPAL (MAIN CONTENT) ################ */
+
 #principal{
     
     width: 70%;
-    position: absolute;
-    left: 0px;
+    float: left;
 }
 
 img{
@@ -80,13 +79,16 @@ img{
     text-decoration: none;
 }
 
+.links:hover{
+    text-decoration: underline;
+}
+
 /* ################ BARRA LATERAL (SIDE BAR) ################ */
 
 #lateral{
     
     width: 20%;
-    position: absolute;
-    right: 0px;
+    float: right;
     padding-top: 2.5%;
 }
 
@@ -107,3 +109,14 @@ img{
     background-color: #b2bec3;
 }
 
+/* ################ RODAPÉ (FOOTER) ################ */
+
+#rodape{
+    background-color: #ccc;
+    text-align: center;
+    font-size: 1.1em;
+    clear: both;
+    width: 97%;
+    padding: 1.5%;
+    
+}
