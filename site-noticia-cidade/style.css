@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background: url(imagens/fundo.png) repeat-x left
+}
+
+#cabeçalho{
+    width: 750px;
+    margin: 0px auto;
+    padding-top: 25px;
+    height: 200px;
+    background: url(imagens/detalhe-topo.png) no-repeat right top;
+}
+
+#menu-topo{
+    list-style: none;
+    float: left;
+    width: 100%;
+}
+
+#menu-topo a{
+    background: #a0002e url(imagens/divisor.png) no-repeat left center;
+    float: left;
+    margin: 10px 0px;
+    padding: 15px 18px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 550;
+}
+
+ #menu-topo a:hover{
+     background-color: #cc0037;
+     color: #810224;
+ }
+
+ #menu-topo a.selecionado{
+     background-color: #cc0037;
+ }
