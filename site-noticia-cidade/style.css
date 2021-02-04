@@ -5,8 +5,10 @@
 }
 
 body{
-    background: url(imagens/fundo.png) repeat-x left
+    background: url(imagens/fundo.png) repeat-x left top
 }
+
+/* CABEÇALHO */
 
 #cabeçalho{
     width: 750px;
@@ -39,4 +41,37 @@ body{
 
  #menu-topo a.selecionado{
      background-color: #cc0037;
+ }
+
+ /* CONTEUDO */
+
+ #principal{
+    width: 750px;
+    margin: 0px auto;
+    padding-top: 25px;
+    height: 200px;
+ }
+
+ #barra-lateral{
+     float: left;
+     width: 150px;
+ }
+
+ #conteudo{
+     float: right;
+     width: 600px;
+ }
+
+ #conteudo img{
+     width: 280px;
+ }
+
+ #cont1{
+     float: left;
+     width: 280px;
+ }
+
+ #cont2{
+     float: right;
+     width: 280px;
  }
