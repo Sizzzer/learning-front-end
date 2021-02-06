@@ -4,9 +4,11 @@
     font-size: 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 body{
     background: url(imagens/fundo.png) repeat-x left top
 }
+
 h2{
     background-color: #2b4a6d;
     color: #fff;
@@ -15,6 +17,7 @@ h2{
     line-height: 1.5em;
     margin-bottom: 15px;
 }
+
 /* CABEÇALHO */
 #cabeçalho{
     width: 760px;
@@ -23,11 +26,13 @@ h2{
     height: 200px;
     background: url(imagens/detalhe-topo.png) no-repeat right top;
 }
+
 #menu-topo{
     list-style: none;
     float: left;
     width: 100%;
 }
+
 #menu-topo a{
     background: #a0002e url(imagens/divisor.png) no-repeat left center;
     float: left;
@@ -37,10 +42,12 @@ h2{
     color: #fff;
     font-weight: 550;
 }
+
 #menu-topo a:hover{
     background-color: #cc0037;
     color: #810224;
 }
+
 #menu-topo a.selecionado{
     background-color: #cc0037;
 }
@@ -50,55 +57,6 @@ h2{
     width: 760px;
     margin: 0px auto;
     padding-top: 25px;
-}
-
-/* BARRA LATERAL */
-#barra-lateral{
-    float: left;
-    width: 160px;
-}
-
-#entrevistas-caixa{
-    margin-bottom: 40px;
-    padding: 10px;
-    background: url(imagens/fundo-caixa.png);
-}
-
-#menu-lateral{
-    list-style-type: none;
-}
-
-#menu-lateral a{
-    display: block;
-    width: 135px;
-    padding: 10px 0px;
-    padding-left: 5px;
-    text-decoration: none;
-    color: #000;
-    font-size: 0.75;
-    background-color: #fff;
-}
-
-#news-caixa{
-    padding: 10px;
-    background: url(imagens/fundo-caixa.png);
-}
-
-#news input[type="text"]{
-    width: 120px;
-    font-size: 0.8em;
-}
-
-#news input[type="submit"]{
-    background-color: #810224;
-    color: #fff;
-    text-align: center;
-    border: none;
-    padding: 7px;
-}
-
-#email-caixa{
-    background-color: #fff;
 }
 
 /* CONTEUDO */
@@ -180,6 +138,55 @@ h2{
 
 .noticia-pequena p{
     font-size: 0.8em;
+}
+
+/* BARRA LATERAL */
+#barra-lateral{
+    float: left;
+    width: 160px;
+}
+
+#entrevistas-caixa{
+    margin-bottom: 40px;
+    padding: 10px;
+    background: url(imagens/fundo-caixa.png);
+}
+
+#menu-lateral{
+    list-style-type: none;
+}
+
+#menu-lateral a{
+    display: block;
+    width: 135px;
+    padding: 10px 0px;
+    padding-left: 5px;
+    text-decoration: none;
+    color: #000;
+    font-size: 0.75;
+    background-color: #fff;
+}
+
+#notificações-caixa{
+    padding: 10px;
+    background: url(imagens/fundo-caixa.png);
+}
+
+#notificações input[type="text"]{
+    width: 120px;
+    font-size: 0.8em;
+}
+
+#notificações input[type="submit"]{
+    background-color: #810224;
+    color: #fff;
+    text-align: center;
+    border: none;
+    padding: 7px;
+}
+
+#email-caixa{
+    background-color: #fff;
 }
 
 /* RODAPÉ */
