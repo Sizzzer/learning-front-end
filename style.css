@@ -126,21 +126,20 @@ h2{
     margin: 0px auto;
     width: 250px;
     background-color: #fff;
-    border-top: 1px solid #7f8c8d;
+    border-bottom: 1px solid #acacac;
 }
 
 .noticia-pequena img{
     width:85px ;
     float: left;
-    padding-bottom: 10px;
-    padding-right: 10px;
+    padding: 5px 10px 5px 5px;
 }
 
 .noticia-pequena-texto{
     float: right;
 }
 
-.noticia-pequena a{
+.noticia-pequena h3{
     color: #5387c4;
     text-decoration: none;
     font-size: 0.8em;
@@ -148,6 +147,25 @@ h2{
 
 .noticia-pequena p{
     font-size: 0.8em;
+    text-decoration: none;
+    color: #000;
+}
+
+.noticia-pequena:hover{
+    background-color: #ebebeb;
+}
+
+/* DUAS COLUNAS */
+#duas-colunas #coluna1{
+    width: 570px;
+}
+
+#duas-colunas .noticia-grande img{
+    width: 550px;
+}
+
+#duas-colunas .noticia-pequena{
+    width: 570px;
 }
 
 /* BARRA LATERAL */
