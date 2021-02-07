@@ -19,7 +19,7 @@ h2{
 }
 
 /* CABEÇALHO */
-#cabeçalho{
+#cabecalho{
     width: 760px;
     margin: 0px auto;
     padding-top: 25px;
@@ -167,17 +167,17 @@ h2{
     background-color: #fff;
 }
 
-#notificações-caixa{
+#notificacoes-caixa{
     padding: 10px;
     background: url(imagens/fundo-caixa.png);
 }
 
-#notificações input[type="text"]{
+#notificacoes input[type="text"]{
     width: 120px;
     font-size: 0.8em;
 }
 
-#notificações input[type="submit"]{
+#notificacoes input[type="submit"]{
     background-color: #810224;
     color: #fff;
     text-align: center;
