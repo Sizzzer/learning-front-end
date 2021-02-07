@@ -48,7 +48,13 @@ h2{
     color: #810224;
 }
 
-#menu-topo a.selecionado{
+#menu-topo a.primeiro{
+    background: none;
+    background-color: #a0002e;
+}
+
+#menu-topo a#selecionado{
+    background: none;
     background-color: #cc0037;
 }
 
@@ -97,6 +103,10 @@ h2{
     background-color: #810224;
     padding-left: 5px;
     text-transform: uppercase;
+}
+
+.link{
+    color: #a0002e;
 }
 
 #outras1{
@@ -167,14 +177,22 @@ h2{
     background-color: #fff;
 }
 
+#menu-lateral a:hover{
+    color: #999999;
+    background: #fff url(imagens/marcador.png) left center no-repeat;
+    padding-left: 25px;
+}
+
 #notificacoes-caixa{
     padding: 10px;
     background: url(imagens/fundo-caixa.png);
 }
 
 #notificacoes input[type="text"]{
-    width: 120px;
-    font-size: 0.8em;
+    width: 135px;
+    font-size: 1em;
+    height: 1.2em;
+    margin: 5px 0px;
 }
 
 #notificacoes input[type="submit"]{
@@ -183,6 +201,7 @@ h2{
     text-align: center;
     border: none;
     padding: 7px;
+    border-radius: 4px;
 }
 
 #email-caixa{
