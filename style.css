@@ -73,15 +73,16 @@ h2{
 
 .coluna{
     width: 270px;
-    margin-bottom: 20px;
 }
 
 #coluna1{
-    float: left;    
+    float: left;
+    margin-bottom: 20px;    
 }
 
 #coluna2{
     float: right;
+    margin-bottom: 20px;
 }
 
 .noticia-grande-caixa{
@@ -153,6 +154,7 @@ h2{
 
 .noticia-pequena:hover{
     background-color: #ebebeb;
+    cursor: pointer;
 }
 
 /* DUAS COLUNAS */
@@ -168,10 +170,24 @@ h2{
     width: 570px;
 }
 
+/* UMA COLUNA */
+#uma-coluna #coluna1{
+    width: 760px;
+}
+
+#uma-coluna .noticia-grande img{
+    width: 740px;
+}
+
+#uma-coluna .noticia-pequena{
+    width: 760px;
+}
+
 /* BARRA LATERAL */
 #barra-lateral{
     float: left;
     width: 160px;
+    margin-bottom: 20px;
 }
 
 #entrevistas-caixa{
@@ -217,9 +233,9 @@ h2{
     background-color: #810224;
     color: #fff;
     text-align: center;
-    border: none;
     padding: 7px;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 #email-caixa{
