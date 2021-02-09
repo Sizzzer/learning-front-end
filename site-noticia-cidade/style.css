@@ -19,7 +19,7 @@ h2{
 }
 
 /* CABEÇALHO */
-#cabeçalho{
+#cabecalho{
     width: 760px;
     margin: 0px auto;
     padding-top: 25px;
@@ -48,7 +48,13 @@ h2{
     color: #810224;
 }
 
-#menu-topo a.selecionado{
+#menu-topo a.primeiro{
+    background: none;
+    background-color: #a0002e;
+}
+
+#menu-topo a#selecionado{
+    background: none;
     background-color: #cc0037;
 }
 
@@ -67,15 +73,16 @@ h2{
 
 .coluna{
     width: 270px;
-    margin-bottom: 20px;
 }
 
 #coluna1{
-    float: left;    
+    float: left;
+    margin-bottom: 20px;    
 }
 
 #coluna2{
     float: right;
+    margin-bottom: 20px;
 }
 
 .noticia-grande-caixa{
@@ -99,6 +106,10 @@ h2{
     text-transform: uppercase;
 }
 
+.link{
+    color: #a0002e;
+}
+
 #outras1{
     float: left;
     padding: 10px;
@@ -116,21 +127,20 @@ h2{
     margin: 0px auto;
     width: 250px;
     background-color: #fff;
-    border-top: 1px solid #7f8c8d;
+    border-bottom: 1px solid #acacac;
 }
 
 .noticia-pequena img{
     width:85px ;
     float: left;
-    padding-bottom: 10px;
-    padding-right: 10px;
+    padding: 5px 10px 5px 5px;
 }
 
 .noticia-pequena-texto{
     float: right;
 }
 
-.noticia-pequena a{
+.noticia-pequena h3{
     color: #5387c4;
     text-decoration: none;
     font-size: 0.8em;
@@ -138,12 +148,46 @@ h2{
 
 .noticia-pequena p{
     font-size: 0.8em;
+    text-decoration: none;
+    color: #000;
+}
+
+.noticia-pequena:hover{
+    background-color: #ebebeb;
+    cursor: pointer;
+}
+
+/* DUAS COLUNAS */
+#duas-colunas #coluna1{
+    width: 570px;
+}
+
+#duas-colunas .noticia-grande img{
+    width: 550px;
+}
+
+#duas-colunas .noticia-pequena{
+    width: 570px;
+}
+
+/* UMA COLUNA */
+#uma-coluna #coluna1{
+    width: 760px;
+}
+
+#uma-coluna .noticia-grande img{
+    width: 740px;
+}
+
+#uma-coluna .noticia-pequena{
+    width: 760px;
 }
 
 /* BARRA LATERAL */
 #barra-lateral{
     float: left;
     width: 160px;
+    margin-bottom: 20px;
 }
 
 #entrevistas-caixa{
@@ -167,22 +211,31 @@ h2{
     background-color: #fff;
 }
 
-#notificações-caixa{
+#menu-lateral a:hover{
+    color: #999999;
+    background: #fff url(imagens/marcador.png) left center no-repeat;
+    padding-left: 25px;
+}
+
+#notificacoes-caixa{
     padding: 10px;
     background: url(imagens/fundo-caixa.png);
 }
 
-#notificações input[type="text"]{
-    width: 120px;
-    font-size: 0.8em;
+#notificacoes input[type="text"]{
+    width: 135px;
+    font-size: 1em;
+    height: 1.2em;
+    margin: 5px 0px;
 }
 
-#notificações input[type="submit"]{
+#notificacoes input[type="submit"]{
     background-color: #810224;
     color: #fff;
     text-align: center;
-    border: none;
     padding: 7px;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 #email-caixa{
