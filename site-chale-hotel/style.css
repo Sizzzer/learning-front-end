@@ -93,7 +93,7 @@ header{
 }
 
 /* ##################### CORPO ##################### */
-#container-conteudo{
+#container-corpo{
     margin-top: 20px;
     float: left;
     background-color: #EFE9CB;
@@ -101,9 +101,14 @@ header{
 #conteudo{
     width: 50%;
     float: left;
+    
 }
 #titulo{
     color: #7D7640;
+    padding: 10px;
+}
+#conteudo p{
+    padding: 10px;
 }
 #container-menu{
     width: 50%;
@@ -123,6 +128,7 @@ header{
 }
 .item-menu h3{
     color: #7D7640;
+    padding: 5px;
     background: url(imagens/ornamento.png) no-repeat top right;
 }
 .item-menu:hover{
