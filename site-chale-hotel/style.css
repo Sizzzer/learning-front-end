@@ -3,6 +3,9 @@
     padding: 0;
     font-family: Helvetica, "Trebuchet MS", sans-serif;
 }
+a{
+    text-decoration: none;
+}
 body{
     margin: 15px;
     background-color: #fff8cf;
@@ -90,3 +93,52 @@ header{
 }
 
 /* ##################### CORPO ##################### */
+#container-conteudo{
+    margin-top: 20px;
+    float: left;
+    background-color: #EFE9CB;
+}
+#conteudo{
+    width: 50%;
+    float: left;
+}
+#titulo{
+    color: #7D7640;
+}
+#container-menu{
+    width: 50%;
+    float: right;
+    background-color: #DED9B7;
+    padding-bottom: 25px
+}
+#menu{
+    margin: 10px 25px;
+}
+.item-menu{
+    float: left;
+    color: black;
+    font-size: 0.9em;
+    border-bottom: 2px solid #F6F3D6;
+    
+}
+.item-menu h3{
+    color: #7D7640;
+    background: url(imagens/ornamento.png) no-repeat top right;
+}
+.item-menu:hover{
+    background-color: #F6F3D6;
+}
+.item-menu img{
+    width: 26%;
+    float: left;
+    margin: 2%;
+}
+.texto-menu{
+    width: 66%;
+    float: right;
+    margin: 2%;
+}
+/* ##################### RODAPÉ ##################### */
+footer{
+    clear: both;
+}
