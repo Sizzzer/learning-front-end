@@ -67,6 +67,36 @@
             </div>
         </main>
     </div>
+
+    <!-- MENU-LATERAL -->
+    <nav class="side-menu">
+        <a href="#menu" class="toggler">☰</a>
+        <ul>
+            <li><a href="#">Item1</a></li>
+            <li><a href="#">Item2</a></li>
+            <li><a href="#">Item3</a></li>
+            <li><a href="#">Item4</a></li>
+            <li><a href="#">Item5</a></li>
+        </ul>
+    </nav>
+    
+    <script>
+        document.querySelector('.side-menu .toggler').addEventListener('click',ev=>{
+            ev.preventDefault()
+            document.querySelector('.side-menu').classList.toggle('active')
+        })
+    </script>
+    
+    <!-- Para mais de um menu na página
+    <script>
+        document.querySelectorAll('.side-menu > .toggler').forEach(toggler=>{
+            toggler.addEventListener('click',ev=>{
+                ev.preventDefault()
+                toggler.parentNode.classList.toggle('active')
+            })
+        })
+    </script>
+    -->
     
 </body>
 </html>
