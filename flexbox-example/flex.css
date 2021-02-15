@@ -1,0 +1,59 @@
+*{
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    background-color: #DC143C;
+}
+main{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.coluna{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+.item{
+    margin: 10px;
+}
+.texto{
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #fff;
+}
+.texto a{
+    color: #DC143C;
+}
+.imagem{
+    background-color: #ccc;
+    text-align: center;
+    font-size: 2em;
+    color: #555;
+}
+#imagem1{
+    height: 150px;
+    line-height: 150px;
+}
+#imagem2{
+    height: 220px;
+    line-height: 220px;
+}
+#imagem3{
+    height: 100px;
+    line-height: 100px;
+}
+#imagem4{
+    height: 230px;
+    line-height: 230px;
+}
+#imagem5{
+    height: 100px;
+    line-height: 100px;
+}
+#imagem6{
+    height: 350px;
+    line-height: 350px;
+}
