@@ -65,17 +65,18 @@ main h2{
     text-transform: uppercase;
     font-size: 13px;
     color: #227115;
-    margin: 10px;
+    margin: 10px 0;
 }
 #capa{
     grid-area: capa;
 }
 #capa>img{
     width: 100%;
+    height: 100%;
 }
 #video{
     grid-area: video;
-    margin: 10px;
+    margin: 10px 0;
 }
 #video>iframe{
     width: 100%;
@@ -83,7 +84,7 @@ main h2{
 }
 #mapa{
     grid-area: mapa;
-    margin: 10px;
+    margin: 10px 0;
 }
 #mapa>iframe{
     width: 100%;
@@ -106,7 +107,6 @@ main h2{
 }
 #noticia p{
     font-size: 14px;
-    margin-left: 10px;
 }
 #noticia a{
     display: block;
@@ -117,6 +117,49 @@ main h2{
 /* ####################### aside ####################### */
 aside{
     grid-area: aside;
+    display: flex;
+    flex-direction: column;
+}
+#depoimento img{
+    width: 100%;
+}
+#visita{
+    margin-top: 15px;
+    padding: 30px;
+    background-color: #CDC8B1;
+    font-size: 12px;
+}
+#visita div{
+    display: block;
+    margin-top: 10px;
+}
+#visita h3{
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #86521A;
+}
+#data{
+    width: 130px;
+    margin-left: 10px;
+    padding: 3px;
+    border: 1px solid #ADA484;
+}
+#qnt-pessoas{
+    width: 20%;
+    margin-left: 10px ;
+    padding: 3px;
+    border: 1px solid #ADA484;
+}
+#verificar{
+    display: block;
+    margin: 20px auto;
+    color: #fff;
+    background-color: #9B9271;
+    border: none;
+    padding: 15px 10%;
+    font-size: 1.3em;
+    border-radius: 5px;
+    cursor: pointer;
 }
 /* ####################### footer ####################### */
 footer{
