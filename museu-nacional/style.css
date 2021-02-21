@@ -16,7 +16,7 @@ a:hover{
 }
 #container{
     max-width: 1080px;
-    min-width: 820px;
+    min-width: 780px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -164,19 +164,24 @@ aside h3{
 #galeria{
     background-color: #EBE7DD;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 50%);
     padding: 30px;
 }
 #galeria h3{
     grid-column: 1 / 3;
+    /* grid-column: span 2; */
     margin-bottom: 30px;
 }
 .fotos{
     background: url(imagens/fundo-foto.png) no-repeat center;
-    width: min-content;
-    padding: 20px;
+    background-size: cover;
+    padding: 12%;
     margin-bottom: 25px;
     justify-self: center;
+}
+.fotos img{
+    width: 100%;
+    margin: auto;
 }
 /* ####################### footer ####################### */
 footer{
