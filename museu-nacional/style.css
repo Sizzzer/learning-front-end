@@ -186,6 +186,21 @@ aside h3{
 /* ####################### footer ####################### */
 footer{
     grid-area: footer;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background: url(imagens/fundo-rodape.png) no-repeat top center;
+    font-size: 13px;
+}
+footer ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.item-menu-footer{
+    margin: 5px 15px;
+    padding: 5px;
 }
 /* ####################### outros ####################### */
 .negrito{
