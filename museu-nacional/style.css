@@ -16,10 +16,9 @@ a:hover{
 }
 #container{
     max-width: 1080px;
-    min-width: 780px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns:minmax(620px,2fr) 1fr;
     grid-template-rows: 85px auto 130px;
     grid-template-areas:
     'header header'
@@ -67,12 +66,6 @@ main h2{
     color: #227115;
     margin: 10px 0;
 }
-#capa{
-    grid-area: capa;
-}
-#capa>img{
-    width: 100%;
-}
 #video{
     grid-area: video;
     margin: 10px 0;
@@ -112,6 +105,67 @@ main h2{
     font-size: 14px;
     margin-left: 10px;
     margin-top: 20px;
+}
+/* ####################### slidershow ####################### */
+#slidershow{
+    grid-area: capa;
+    width: 100%;
+    height: 320px;
+    overflow: hidden;
+    position: relative;
+}
+.slides{
+    display: flex;
+    width: 400%;
+    height: 100%;
+}
+.slide{
+    width: 25%;
+    transition: 0.6s;
+    text-align: center;
+}
+.slide img{
+    position: relative;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.navigation{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    height: 20px;
+}
+.bar{
+    align-self: center;
+    width: 60px;
+    height: 15px;
+    border: 2px solid #fff;
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.4s all;
+}
+.bar:hover{
+    background-color: #fff;
+    width: 65px;
+}
+input[type='radio']{
+    position: absolute;
+    visibility: hidden;
+}
+#r1:checked ~ .s1{
+    margin-left: 0%;
+}
+#r2:checked ~ .s1{
+    margin-left: -25%;
+}
+#r3:checked ~ .s1{
+    margin-left: -50%;
+}
+#r4:checked ~ .s1{
+    margin-left: -75%;
 }
 /* ####################### aside ####################### */
 aside{

@@ -28,9 +28,36 @@
             </nav>
         </header> <!-- Fim do header-->
         <main>
-            <div id="capa">
-                <img src="imagens/museu.png" alt="Interior do Museu">
-            </div>
+            <div id="slidershow">
+                <div class="slides">
+
+                    <input type="radio" name="r" id="r1" checked>
+                    <input type="radio" name="r" id="r2">
+                    <input type="radio" name="r" id="r3">
+                    <input type="radio" name="r" id="r4">
+
+                    <div class="slide s1">
+                        <img src="imagens/museu.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="imagens/museu2.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="imagens/museu3.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="imagens/museu4.jpg" alt="">
+                    </div>
+
+                    <nav class="navigation">
+                        <label for="r1" class="bar"></label>
+                        <label for="r2" class="bar"></label>
+                        <label for="r3" class="bar"></label>
+                        <label for="r4" class="bar"></label>
+                    </nav>
+
+                </div> <!-- Fim do slides-->
+            </div> <!-- Fim do slidershow-->
             <article id="video">
                 <h2>VÍDEO: CONHEÇA O MUSEU</h2>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/RGUYb-hivrc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
