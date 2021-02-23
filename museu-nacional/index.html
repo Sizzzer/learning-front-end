@@ -153,5 +153,32 @@
 
         </footer> <!-- Fim do footer-->
     </div>
+
+    <script>
+
+        const lenImages = document.querySelectorAll("[name='r']").length
+        let loop = true
+
+        function check(id) {
+            document.getElementById(id).checked = true;
+        }
+
+        function autoSlide(){
+            let inputChecked = document.querySelector(":checked");
+
+            let nextNumber = Number(inputChecked.id[1])+1;
+
+            if (nextNumber <= lenImages){   
+                var nextId = "r"+String(nextNumber);
+            }
+            else{
+                var nextId = "r1";
+            }
+            check(nextId) = true;
+        }
+
+        setInterval(autoSlide, 3000)
+
+    </script>
 </body>
 </html>
